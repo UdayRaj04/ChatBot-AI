@@ -1,0 +1,12 @@
+flask
+gtts
+os
+speech_recognition
+pyttsx3
+webbrowser
+openai
+datetime
+random
+numpy
+selenium
+wikipedia
