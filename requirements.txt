@@ -2,7 +2,6 @@ flask
 gtts
 speechrecognition
 pyttsx3
-webbrowser
 openai
 datetime
 random
