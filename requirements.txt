@@ -4,7 +4,5 @@ speechrecognition
 pyttsx3
 openai
 datetime
-random
-numpy
 selenium
 wikipedia
