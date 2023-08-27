@@ -1,7 +1,6 @@
 flask
 gtts
-os
-speech_recognition
+speechrecognition
 pyttsx3
 webbrowser
 openai
