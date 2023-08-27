@@ -7,3 +7,4 @@ datetime
 selenium
 wikipedia
 gunicorn
+numpy
