@@ -20,7 +20,7 @@ def chat(query):
     retStr="Issue Detected at OpenAI"
     try:
         #print(chatStr)
-        openai.api_key = "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"
+        openai.api_key = "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"
         chatStr += f"Uday: {query}\n Apna AI: "
         response = openai.Completion.create(
             model="text-davinci-003",
@@ -60,7 +60,7 @@ def chat(query):
 
 
 def ai(prompt):
-    openai.api_key = "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"
+    openai.api_key = "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"
     text = f"OpenAI response for Prompt: {prompt} \n *************************\n\n"
     try:
         response = openai.Completion.create(
