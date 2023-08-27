@@ -1,0 +1,29 @@
+OpenAI response for Prompt: using artificial intelligence write a python code to find the sum between two numbers 
+ *************************
+
+
+
+#importing the necessary libraries
+import math
+from sklearn.linear_model import LinearRegression
+
+#defining the function 
+def sum_of_numbers(a,b):
+    
+    #creating an array of numbers
+    X = [[a,b]]
+
+    #using linear regression to fit the model
+    linear_regression = LinearRegression()
+    linear_regression.fit(X, [a,b])
+
+    #getting the intercept and coefficients
+    intercept = linear_regression.intercept_
+    coeff = linear_regression.coef_
+
+    #calculating the sum
+    sum = intercept + coeff[0]*a + coeff[1]*b
+    return sum
+
+#calling the function with the two numbers
+print(sum_of_numbers(2, 4))

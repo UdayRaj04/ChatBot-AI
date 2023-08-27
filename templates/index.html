@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatBot AI</title>
+    <link rel="stylesheet" type="text/css" href="../static/static.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+    <div class="Parent">
+        <div class="Speak">
+            <input type="text" id="searchBox" placeholder="Enter your Input or use Microphone">
+            <button id="submitButton" class="submitButton">
+                <span class="tooltipSearch">Search</span>
+            </button>
+            <button id="startButton" class="startButton">
+                <span class="tooltipStart">Search by Voice</span>
+            </button>
+        </div>
+        <div class="Conversation">
+            <h2>Welcome To ChatBot AI</h2>
+            <!-- <p id="output"></p> -->
+            <!-- <p class="AI"> AI: Welcome To ChatBot AI, How can I help you sir...</p> -->
+        </div>
+        
+    </div>
+    <!-- <audio id="audioPlayer" controls>
+        <source src="{{ url_for('static', filename='output.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
+    <script src="../static/script.js"></script>
+</body>
+</html>

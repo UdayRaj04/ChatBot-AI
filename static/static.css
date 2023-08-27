@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(245, 223, 223, 0.5);
+}
+
+.Speak{
+    width: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-block: 0.4%;
+    margin-left: 20%;
+    margin-right: 5%;
+    border-radius: 25px;
+    background-color: rgba(211, 211, 211, 0.479);
+    position: fixed;
+    top:0;
+    margin-top: .9%;
+    border: 1.5px solid;
+    box-shadow:2px 6px 6px rgba(32,33,36,.28);
+}
+
+.Speak:hover,.Speak:active{
+    transform: scale(1.003);
+    box-shadow:2px 10px 10px rgba(32,33,36,.28);
+}
+
+.Conversation {
+    margin-top:5.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-block: 1%;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+.User {
+    text-align: right;
+    border-radius: 30px 0px 30px 30px;
+    background-color: powderblue;
+    border:1px solid;
+    margin-left:30%;
+    padding:0.5%;
+    box-shadow: 0px 5px #8888;
+}
+
+.AI {
+    border-radius: 0px 30px 30px 30px;
+    background-color: aqua;
+    border:1px solid;
+    margin-right:30%;
+    padding:0.5%;
+    box-shadow: 5px 5px #8888;
+}
+
+button#submitButton:hover,button#startButton:hover{
+    transform: scale(1.3);
+}
+
+button#submitButton:active,button#startButton:active{
+    transform: scale(1);
+}
+
+button#submitButton {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: none;
+    background-image: url("icon-search.png");
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow: 3px 3px #8888;
+}
+button#startButton {
+    margin-left: 0.5%;
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
+    border: none;
+    background-image: url("icon-mic.png");
+    background-color: rgba(211, 211, 211, 0.8);
+    box-shadow: 3px 3px #8888;
+}
+input#searchBox {
+    margin-top: 2px;
+    border-radius: 15px;
+    width: 88%;
+    height: 25px;
+    text-align: center;
+}     
+
+h2{
+    text-shadow: 2px 10px 10px #8888;
+    text-align: center;
+}
+
+.submitButton .tooltipSearch , .startButton .tooltipStart{
+    visibility: hidden;
+    width: 60px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: x-small;
+
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.submitButton:hover .tooltipSearch , .startButton:hover .tooltipStart{
+    visibility: visible;
+}
