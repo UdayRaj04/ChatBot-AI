@@ -24,5 +24,5 @@ Assist in booking appointments, making reservations, and providing recommendatio
 
 ### This project aims to create a versatile, intelligent, and user-friendly chatbot AI that can serve a wide range of applications, enhancing user convenience and accessibility through advanced AI and voice interaction technology.
 
-Participant's Certificate
- ![image info](images/image.png)
+### Participant's Certificate
+ ![image info](IMG_20240815_191928.jpg)
