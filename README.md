@@ -23,3 +23,6 @@ Help students with study material, answer questions, and provide educational res
 Assist in booking appointments, making reservations, and providing recommendations.
 
 ### This project aims to create a versatile, intelligent, and user-friendly chatbot AI that can serve a wide range of applications, enhancing user convenience and accessibility through advanced AI and voice interaction technology.
+
+Participant's Certificate
+ ![image info](images/image.png)
